@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seiza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #2D4739;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .product img {
+            width: 200px;
+        }
+        .benefits, .b2b, .testimonials {
+            background: #EFEDE8;
+            padding: 20px;
+        }
+        .benefits div, .testimonials div {
+            display: inline-block;
+            width: 30%;
+            padding: 10px;
+        }
+        footer {
+            background: #2D4739;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BENVINGUTS A SEIZA</h1>
+        <p>On el silenci i la comoditat es troben</p>
+    </header>
+    
+    <section>
+        <h2>Qui Som?</h2>
+        <p>Seiza neix amb la intenció de facilitar i fer més còmoda la pràctica de la meditació...</p>
+    </section>
+    
+    <section class="product">
+        <h2>El Nostre Producte</h2>
+        <p>(Banquet de meditació: Nom Original)</p>
+        <p>46€ - A mida, desmuntable, lleuger i de fusta ecològica</p>
+        <img src="banc-meditacio.jpg" alt="Banquet de meditació">
+        <button>Comprar</button>
+    </section>
+    
+    <section class="benefits">
+        <h2>Beneficis</h2>
+        <div>
+            <h3>Millora Postura</h3>
+            <p>Afavoreix una postura estable, còmoda i ferma.</p>
+        </div>
+        <div>
+            <h3>Ajuda a Reduir l’Estrès</h3>
+            <p>Explicació</p>
+        </div>
+        <div>
+            <h3>?????????</h3>
+            <p>Explicació</p>
+        </div>
+    </section>
+    
+    <section class="b2b">
+        <h2>B2B</h2>
+        <p>Venda a centres i a majoristes</p>
+    </section>
+    
+    <section class="testimonials">
+        <h2>Testimonis</h2>
+        <div>
+            <h3>Nom i Cognom</h3>
+            <p>Opinió del client...</p>
+        </div>
+        <div>
+            <h3>Nom i Cognom</h3>
+            <p>Opinió del client...</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2025 Seiza. Tots els drets reservats.</p>
+    </footer>
+</body>
+</html>
